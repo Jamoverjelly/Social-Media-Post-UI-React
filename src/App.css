@@ -1,5 +1,4 @@
 header {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -9,5 +8,5 @@ header {
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
   header h1 {
     margin: 0;
-    padding: 0.5em 0 0 1em;
+    padding: 0.75em 0 0 1em;
     color: #555555; }
