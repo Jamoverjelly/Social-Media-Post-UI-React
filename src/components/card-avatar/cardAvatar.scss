@@ -1,0 +1,18 @@
+.avatar {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 49px;
+  min-width: 0px;
+  min-height: 0px;
+  flex-grow: 1;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #9cf0a9;
+  position: relative;
+  z-index: 0;
+}
