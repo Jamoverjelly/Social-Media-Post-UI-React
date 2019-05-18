@@ -1,24 +1,10 @@
 .card-header {
   position: relative;
-  height: 85px;
-  width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  // height: 85px;
+  // width: 100%;
   background-color: white;
 
-  .header-avatar {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #9cf0a9;
-  }
-
   .header-post-details {
-    padding-left: 70px;
-    padding-top: 11.5px;
     color: #707070;
 
     h4 {
@@ -39,21 +25,21 @@
         }
       }
     }
+  }
 
-    .tweet-menu-contain {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      height: 20px;
-      width: 20px;
+  .post-menu-contain {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
 
-      :hover {
-        cursor: pointer;
-      }
+    :hover {
+      cursor: pointer;
+    }
 
-      .svg-icon.down-arrow:hover path {
-        fill: #1991d9;
-      }
+    .svg-icon.down-arrow:hover path {
+      fill: #1991d9;
     }
   }
 }

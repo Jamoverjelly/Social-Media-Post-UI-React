@@ -1,0 +1,11 @@
+.link-container {
+  cursor: pointer;
+  font-size: 15px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px; }
+  .link-container .link-image-container {
+    width: 100%;
+    height: auto;
+    max-width: 100%; }

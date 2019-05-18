@@ -29,7 +29,6 @@ const SVG = ({
 function CardHeader() {
   return (
     <div className="card-header">
-      <div className="header-avatar" />
       <div className="header-post-details">
         <h4>JS-PICKUP</h4>
         <span> @JSPickup · May 13</span>
@@ -40,9 +39,9 @@ function CardHeader() {
           {"{ author: "}
           <a href="#">@jsetals</a> {"}"}
         </p>
-        <div className="tweet-menu-contain">
-          <SVG fill="#707070" className="down-arrow" />
-        </div>
+      </div>
+      <div className="post-menu-contain">
+        <SVG fill="#707070" className="down-arrow" />
       </div>
     </div>
   );

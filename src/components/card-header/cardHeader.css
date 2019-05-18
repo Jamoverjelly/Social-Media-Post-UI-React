@@ -1,21 +1,7 @@
 .card-header {
   position: relative;
-  height: 85px;
-  width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
   background-color: white; }
-  .card-header .header-avatar {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #9cf0a9; }
   .card-header .header-post-details {
-    padding-left: 70px;
-    padding-top: 11.5px;
     color: #707070; }
     .card-header .header-post-details h4 {
       display: inline;
@@ -28,13 +14,13 @@
         color: #2699fb; }
         .card-header .header-post-details p a :hover {
           text-decoration: underline; }
-    .card-header .header-post-details .tweet-menu-contain {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      height: 20px;
-      width: 20px; }
-      .card-header .header-post-details .tweet-menu-contain :hover {
-        cursor: pointer; }
-      .card-header .header-post-details .tweet-menu-contain .svg-icon.down-arrow:hover path {
-        fill: #1991d9; }
+  .card-header .post-menu-contain {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 20px;
+    width: 20px; }
+    .card-header .post-menu-contain :hover {
+      cursor: pointer; }
+    .card-header .post-menu-contain .svg-icon.down-arrow:hover path {
+      fill: #1991d9; }
