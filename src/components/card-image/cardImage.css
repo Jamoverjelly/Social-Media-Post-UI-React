@@ -1,0 +1,12 @@
+.card-image-container {
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 375px; }
+  .card-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px; }

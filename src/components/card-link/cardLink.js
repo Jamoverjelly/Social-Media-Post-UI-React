@@ -5,9 +5,7 @@ import "../card-link/cardLink.css";
 const CardLink = () => {
   return (
     <div className="card-link-container">
-      <div className="link-image-container">
-        <CardImage />
-      </div>
+      <CardImage />
     </div>
   );
 };

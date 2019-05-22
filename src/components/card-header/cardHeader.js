@@ -30,10 +30,8 @@ const CardHeader = () => {
   return (
     <div className="header-container">
       <div className="card-author">
-        <p>
-          {"{ author: "}
-          <a href="#">@jsetals</a> {"}"}
-        </p>
+        <h4>JS-PICKUP</h4>
+        <span> @JSPickup · May 13</span>
       </div>
       <div className="card-menu-contain">
         <SVG fill="#707070" className="down-arrow" />

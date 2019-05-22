@@ -13,7 +13,6 @@
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 50%;
-  background-color: #9cf0a9;
   position: relative;
   z-index: 0; }
   .avatar .avatar-link {
@@ -22,3 +21,7 @@
     flex-shrink: 1;
     width: 100%;
     display: block; }
+    .avatar .avatar-link img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%; }

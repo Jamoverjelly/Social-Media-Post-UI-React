@@ -1,6 +1,24 @@
 .header-container {
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: white; }
+  .header-container .card-author {
+    color: #707070; }
+    .header-container .card-author h4 {
+      display: inline;
+      margin: 0;
+      font-weight: bold; }
+    .header-container .card-author p {
+      margin: 5px 0 5px 0; }
+      .header-container .card-author p a {
+        text-decoration: none;
+        color: #2699fb; }
+        .header-container .card-author p a :hover {
+          text-decoration: underline; }
   .header-container .card-menu-contain {
     position: absolute;
     top: 10px;

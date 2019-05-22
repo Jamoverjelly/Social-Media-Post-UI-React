@@ -1,22 +1,6 @@
-.card-author {
+@import "../../config";
+
+.card-user-comment {
+  @include flex-container;
   color: #707070;
-
-  h4 {
-    display: inline;
-    margin: 0;
-    font-weight: bold;
-  }
-
-  p {
-    margin: 5px 0 5px 0;
-
-    a {
-      text-decoration: none;
-      color: #2699fb;
-
-      :hover {
-        text-decoration: underline;
-      }
-    }
-  }
 }

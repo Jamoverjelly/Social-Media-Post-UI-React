@@ -6,9 +6,8 @@ import "../card-image/cardImage.css";
 
 const CardImage = () => {
   return (
-    <div>
+    <div className="card-image-container">
       <img
-        style={{ width: "100%", height: "100%" }}
         src={jelly500}
         alt="Pretty cat sitting by a flower vase"
         srcSet={`${jelly500} 500w, ${jelly1000} 1000w, ${jelly1500} 1500w`}

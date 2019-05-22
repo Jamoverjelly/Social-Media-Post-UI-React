@@ -4,15 +4,14 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
   margin: 0 auto;
   margin-top: 150px;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 600px;
+  min-width: 0px;
   height: 500px;
+  min-height: 0px;
   border-radius: 4px;
   position: relative;
   z-index: 0;
@@ -23,13 +22,16 @@
     flex-grow: 7;
     min-width: 0px;
     margin-left: 5px;
-    margin-right: 5px; }
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px; }
     .article-container article .card-container {
       align-items: stretch;
       border: 0 solid black;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
+      flex-direction: row;
       flex-basis: auto;
       flex-shrink: 0;
       position: relative;
