@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 2px;
   background-color: white; }
   .header-container .card-author {
     color: #707070; }
@@ -12,16 +13,10 @@
       display: inline;
       margin: 0;
       font-weight: bold; }
-    .header-container .card-author p {
-      margin: 5px 0 5px 0; }
-      .header-container .card-author p a {
-        text-decoration: none;
-        color: #2699fb; }
-        .header-container .card-author p a :hover {
-          text-decoration: underline; }
   .header-container .card-menu-contain {
     position: absolute;
-    top: 10px;
+    margin-left: 20px;
+    top: 2px;
     right: 10px;
     height: 20px;
     width: 20px; }
