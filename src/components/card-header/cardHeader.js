@@ -26,25 +26,20 @@ const SVG = ({
   </svg>
 );
 
-function CardHeader() {
+const CardHeader = () => {
   return (
-    <div className="card-header">
-      <div className="header-post-details">
-        <h4>JS-PICKUP</h4>
-        <span> @JSPickup · May 13</span>
-        <p>
-          Learning React? Improve by working on small, experimental projects.
-        </p>
+    <div className="header-container">
+      <div className="card-author">
         <p>
           {"{ author: "}
           <a href="#">@jsetals</a> {"}"}
         </p>
       </div>
-      <div className="post-menu-contain">
+      <div className="card-menu-contain">
         <SVG fill="#707070" className="down-arrow" />
       </div>
     </div>
   );
-}
+};
 
 export default CardHeader;

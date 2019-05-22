@@ -1,33 +1,10 @@
-.card-header {
+.header-container {
   position: relative;
   // height: 85px;
   // width: 100%;
   background-color: white;
 
-  .header-post-details {
-    color: #707070;
-
-    h4 {
-      display: inline;
-      margin: 0;
-      font-weight: bold;
-    }
-
-    p {
-      margin: 5px 0 5px 0;
-
-      a {
-        text-decoration: none;
-        color: #2699fb;
-
-        :hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-
-  .post-menu-contain {
+  .card-menu-contain {
     position: absolute;
     top: 10px;
     right: 10px;

@@ -1,11 +1,21 @@
-.link-container {
-  cursor: pointer;
+.card-link-container {
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  margin-top: 10px;
   font-size: 15px;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
   border-top-left-radius: 14px;
-  border-top-right-radius: 14px; }
-  .link-container .link-image-container {
+  border-top-right-radius: 14px;
+  position: relative;
+  z-index: 0; }
+  .card-link-container :hover {
+    cursor: pointer; }
+  .card-link-container .link-image-container {
     width: 100%;
     height: auto;
     max-width: 100%; }

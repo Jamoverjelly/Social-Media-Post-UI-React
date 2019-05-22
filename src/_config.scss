@@ -1,0 +1,7 @@
+@mixin flex-container {
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}

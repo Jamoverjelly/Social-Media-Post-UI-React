@@ -1,19 +1,17 @@
 import React from "react";
 import CardAvatar from "../card-avatar/cardAvatar";
-import CardHeader from "../card-header/cardHeader";
-import CardLink from "../card-link/cardLink";
+import CardPost from "../card-post/cardPost";
 import "../card/card.css";
 
 function Card() {
   return (
-    <div className="card-container">
-      <CardAvatar />
-      <main>
-        <CardHeader />
-        <div className="card-link-container">
-          <CardLink />
+    <div className="article-container">
+      <article>
+        <div className="card-container">
+          <CardAvatar />
+          <CardPost />
         </div>
-      </main>
+      </article>
     </div>
   );
 }

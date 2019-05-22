@@ -1,0 +1,13 @@
+.card-author {
+  color: #707070; }
+  .card-author h4 {
+    display: inline;
+    margin: 0;
+    font-weight: bold; }
+  .card-author p {
+    margin: 5px 0 5px 0; }
+    .card-author p a {
+      text-decoration: none;
+      color: #2699fb; }
+      .card-author p a :hover {
+        text-decoration: underline; }

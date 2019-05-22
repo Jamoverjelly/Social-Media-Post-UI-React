@@ -2,6 +2,7 @@ import React from "react";
 import jelly1000 from "../../images/jelly-1000.jpg";
 import jelly1500 from "../../images/jelly-1500.jpg";
 import jelly500 from "../../images/jelly-500.jpg";
+import "../card-image/cardImage.css";
 
 const CardImage = () => {
   return (

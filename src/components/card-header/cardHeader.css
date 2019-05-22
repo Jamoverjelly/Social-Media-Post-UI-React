@@ -1,26 +1,13 @@
-.card-header {
+.header-container {
   position: relative;
   background-color: white; }
-  .card-header .header-post-details {
-    color: #707070; }
-    .card-header .header-post-details h4 {
-      display: inline;
-      margin: 0;
-      font-weight: bold; }
-    .card-header .header-post-details p {
-      margin: 5px 0 5px 0; }
-      .card-header .header-post-details p a {
-        text-decoration: none;
-        color: #2699fb; }
-        .card-header .header-post-details p a :hover {
-          text-decoration: underline; }
-  .card-header .post-menu-contain {
+  .header-container .card-menu-contain {
     position: absolute;
     top: 10px;
     right: 10px;
     height: 20px;
     width: 20px; }
-    .card-header .post-menu-contain :hover {
+    .header-container .card-menu-contain :hover {
       cursor: pointer; }
-    .card-header .post-menu-contain .svg-icon.down-arrow:hover path {
+    .header-container .card-menu-contain .svg-icon.down-arrow:hover path {
       fill: #1991d9; }

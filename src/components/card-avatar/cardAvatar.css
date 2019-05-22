@@ -1,9 +1,10 @@
 .avatar {
   align-items: stretch;
+  border: 0 solid black;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  max-width: 50px;
+  max-width: 46px;
   min-width: 0px;
   min-height: 0px;
   flex-grow: 1;
@@ -15,3 +16,9 @@
   background-color: #9cf0a9;
   position: relative;
   z-index: 0; }
+  .avatar .avatar-link {
+    flex-grow: 0;
+    cursor: pointer;
+    flex-shrink: 1;
+    width: 100%;
+    display: block; }
